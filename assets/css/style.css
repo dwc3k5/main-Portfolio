@@ -1,0 +1,217 @@
+/* I was having difficulty getting fonts to change, so I went into the bootstrap code, stripped the pieces I wanted to edit, put them in here, and modified elements*/
+/*----------Bootstrap edits---------------*/
+/*----------Universal---------------------*/
+/*----------<header>----------------------*/
+/*----------<main>------------------------*/
+/*----------<main>Index-------------------*/
+/*----------<main>Contact-----------------*/
+/*----------<main>Portfolio---------------*/
+/*----------<footer>----------------------*/
+/*----------Bootstrap edits---------------*/
+.flex-item{
+  width: 30%;
+  margin:1%
+}
+.centered{
+  text-align: center;
+  border-bottom: 3px solid black;
+  padding:0;
+}
+/*----------Universal---------------------*/
+html{
+  overflow-y: scroll;
+}
+body{
+  padding-bottom: 5%;
+  overflow: hidden;
+    background-image: url(assets/images/bigBend.jpg);
+}
+
+.posRel{
+  position:relative;
+}
+
+.posAbs{
+  position:absolute;
+  right:5%;
+  top:50px;
+}
+.nav{
+  bottom:0;
+  right:10%;
+}
+
+.maxHeight{
+  height:100%;
+  border: 1px black solid;
+}
+
+.clearfix::after{
+content: ””;
+display: block;
+clear: both;
+}
+
+.row{
+  padding: 0;
+}
+/*----------<header>BootStraps------------*/
+.btn-lg{
+  position: absolute;
+  height: 80%;
+  bottom:0;
+  left: 10%;
+  background-color: #4aaaa5;
+}
+.nav-tabs > li > a:hover {
+  border-color: #4aaaa5 #4aaaa5 #ddd;
+  color: white;
+  background-color: #666;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: white;
+  cursor: default;
+  background-color: #4aaaa5;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.navbar-brand{
+  position: absolute;
+  bottom: 0;
+}
+
+/*----------<header>----------------------*/
+/*makes image fill div*/
+.autoFill{
+  height: 100%;
+  width: 90%;
+}
+
+
+/*----------<main>BootStraps--------------*/
+
+.mainBtnFormat{
+  Margin:10% auto;
+  border-radius:5%;
+
+  background-color:#4aaaa5;
+  border-color: black;
+  width:100%;
+}
+
+.mainBtnFormat:hover{
+  background-color: #666;
+}
+
+.media-object{
+  max-width: 25px;
+  max-height: 25px;
+}
+.btn-group-vertical{
+  height: 100%;
+}
+/*----------<main>------------------------*/
+/*lines next to connect buttons*/
+.blank{
+  background-color: white;
+}
+
+.mainOneHeight{
+  height: 100px;
+
+}
+
+/*not working yet*/
+
+/*---------connectbuttons------------*/
+.media-heading{
+    border-bottom: 3px solid #4aaaa5;
+}
+
+.media-heading:hover{
+  opacity:1;
+}
+
+.fadeIn2{
+
+
+}
+
+.invis:hover{
+  opacity: 1;
+}
+
+/*trying to build a transition to cause text to appear on a mouseover*/
+/*.transitionText{
+height:100%
+  -webkit-transition: height 2s;
+}*/
+
+/*----------<main>Index-------------------*/
+.img-thumbnail{
+
+}
+/*----------<main>Contact-----------------*/
+/*----------<main>Portfolio---------------*/
+#portTitle{
+  text-align: center;
+  border-bottom: 3px solid black;
+}
+#portInfor{
+
+}
+#portLink{
+  text-align:center;
+}
+
+/*used in javascript*/
+#indexFormat{
+  display: block;
+}
+#contactFormat{
+  display: none;
+}
+#portfolioFormat{
+  display: none;
+}
+/*background for central section*/
+#mainFormat{
+  background-image:url(../images/ep_naturalwhite/ep_naturalwhite.png);
+  margin: 5% 10%;
+  border-radius: 5px;
+}
+
+/*formatting for portfolio image*/
+#mainImage{
+  height:200px;
+  width:200px;
+  float:left;
+  margin: 0 20px 5px 0;
+}
+
+/* getting media buttons to align*/
+.floatLeft{
+  float:left;
+}
+
+/*----------<footer>BootStraps------------*/
+.navbar-fixed-bottom{
+  height:10%;
+  width:100%;
+  background-color:#666;
+  border-top: 5px solid #4aaaa5;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+/*----------<footer>----------------------*/
+.copyright{
+  /*
+  giving space to copyright
+  having trouble getting this to work as a %
+  */
+  margin-top: 10px;
+}
